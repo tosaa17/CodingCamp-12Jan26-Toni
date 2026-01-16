@@ -1,0 +1,96 @@
+<!DOCTYPEhtml>
+<html>
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Portofolio Toni</title>
+    
+    <!--CSS External -->
+    <link rel="stylesheet" href="Css/style.css">
+    
+    <!--Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  
+  <body>
+    
+    <!--Header Content -->
+    <header class="main-header p-[8px]">
+      <!-- Logo -->
+      <div class="logo"></div>
+      
+      <!--Navigation Menu -->
+      <nav class="flex">  
+        <a class="border p-2 rounded" href="#home-page">Home</a>
+        <a class="border p-2 rounded" href="#portofolio-page">Portofolio</a>
+        <a class="border p-2 rounded" href="#our-profile-page">Our Profile</a>
+        <a class="border p-2 rounded" href="#message-us-page">Message Us</a>
+      </nav>
+    </header>
+    
+    <hr/>
+    
+    <!-- Main Content -->
+    <main>
+      <!--Home Page-->
+      <section id="home-page" class="min-h-[50@px] text-center"
+      <h2 class="text-xl font-bold" id="welcome-speech">Welcome to Our Webseite</h2>
+      <p class="mt-2">We are glad to have you here. Explore our services and offerings.
+      </section>
+      
+      <hr/>
+      
+      <!-- Portfolio Page -->
+      <section id="portofolio-page" class="min-h-[500px] text-center content-center">
+      <h2 class="text-xl font-bold">Our Portfolio</h2>
+      <p class="mt-2">Take a look at our diverse range of projects that showcase our skills and expertise.</section>
+      
+      <hr/>
+      
+      
+     <!-- Our Profile Page -->
+        <section id="our-profile-page" class="min-h-[500px] text-center content-center">
+            <h2 class="text-xl font-bold">About Toni Company</h2>
+            <p class="mt-2">Toni Company is dedicated to providing top-notch services in various domains.</p>
+        </section>
+        
+        <hr/>
+        
+       <!-- Message Us Page -->
+        <section id="message-us-page" class="min-h-[500px] mx-8">
+            <header>
+                <h2 class="text-xl font-bold">Message Us</h2>
+                <p class="mt-2">Have questions or want to work with us? Send us a message and we'll get back to you
+                    promptly.</p>
+            </header>
+
+            <form>
+                <div class="mb-4">
+                    <label class="block mb-2" for="name">Name:</label>
+                    <input class="w-full p-2 border rounded" type="text" id="name" name="name" placeholder="Masukan Nama"required />
+                </div>
+                <div class="mb-4">
+                    <label class="block mb-2" for="email">Email:</label>
+                    <input class="w-full p-2 border rounded" type="email" id="email" name="email" placeholder="contoh@gmail.com" required />
+                </div>
+                <div class="mb-4">
+                    <label class="block mb-2" for="message">Pesan:</label>
+                    <textarea class="w-full p-2 border rounded" id="message" name="message" rows="5" placeholder="Masukan Pesan Kamu di sini."
+                        required></textarea>
+                </div>
+                <button class="px-4 py-2 bg-blue-500 text-white rounded" type="button">Kirim Pesan </button>
+            </form>
+        </section>
+    </main>
+    
+    <!--footer content -->
+    <footer>
+        <p class="text-center p-4 bg-gray-200">© 2026 Toni S A. All rights reserved.</p>
+    </footer>
+    
+    <!-- Javascript External -->
+    <script src="Js/script.js"></script>
+    
+  </body>
+</html>
